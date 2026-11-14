@@ -1,6 +1,6 @@
 {
-  "schema": 1,
-  "source": "Bundled AppConfig LED_ValueMap and GamePowerAudioConfig USB_VID_PID; see evidence/device-catalog.md",
+  "schema": 2,
+  "source": "Vendor LED_ValueMap, USB_VID_PID and matching installer INF resources; see evidence/product-mappings.md",
   "entries": [
     {
       "vid": "0600",
@@ -9,7 +9,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "USBZH3",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 19,
+          "string_line": 285,
+          "symbol": "USBZH3"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 19,
+          "string_line": 285,
+          "symbol": "USBZH3"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -18,7 +41,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "RAIJIN",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 55,
+          "string_line": 254,
+          "symbol": "RAIJIN"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 55,
+          "string_line": 254,
+          "symbol": "RAIJIN"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -27,7 +73,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "KIZARU",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 56,
+          "string_line": 242,
+          "symbol": "KIZARU"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 56,
+          "string_line": 242,
+          "symbol": "KIZARU"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -36,7 +105,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "MIHAWK",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 57,
+          "string_line": 249,
+          "symbol": "MIHAWK"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 57,
+          "string_line": 249,
+          "symbol": "MIHAWK"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -45,7 +137,30 @@
       "windows_revision": null,
       "vendor_lighting": true,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "FUJIN",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 58,
+          "string_line": 240,
+          "symbol": "FUJIN"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 58,
+          "string_line": 240,
+          "symbol": "FUJIN"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -54,7 +169,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "KYRUSE",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 59,
+          "string_line": 244,
+          "symbol": "KYRUSE"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 59,
+          "string_line": 244,
+          "symbol": "KYRUSE"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -63,7 +201,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "VOLDON",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 60,
+          "string_line": 292,
+          "symbol": "VOLDON"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 60,
+          "string_line": 292,
+          "symbol": "VOLDON"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -72,7 +233,62 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "KUGON",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 61,
+          "string_line": 243,
+          "symbol": "KUGON"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 61,
+          "string_line": 243,
+          "symbol": "KUGON"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "1700",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "driver_name": "USBFC3S WENC",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 123,
+          "string_line": 298,
+          "symbol": "USBFC3S_WENC"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 123,
+          "string_line": 298,
+          "symbol": "USBFC3S_WENC"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -90,7 +306,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "JIN",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 62,
+          "string_line": 241,
+          "symbol": "JIN"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 62,
+          "string_line": 241,
+          "symbol": "JIN"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -99,7 +338,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "MEDUSA",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 63,
+          "string_line": 246,
+          "symbol": "MEDUSA"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 63,
+          "string_line": 246,
+          "symbol": "MEDUSA"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -108,7 +370,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "MEDUSA RAINBOW",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 64,
+          "string_line": 247,
+          "symbol": "MEDUSA_RAINBOW"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 64,
+          "string_line": 247,
+          "symbol": "MEDUSA_RAINBOW"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -117,7 +402,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "MEI RGB",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 65,
+          "string_line": 248,
+          "symbol": "MEI_RGB"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 65,
+          "string_line": 248,
+          "symbol": "MEI_RGB"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -126,7 +434,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "LUNA",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 66,
+          "string_line": 245,
+          "symbol": "LUNA"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 66,
+          "string_line": 245,
+          "symbol": "LUNA"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -135,7 +466,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "WARLORD",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 67,
+          "string_line": 293,
+          "symbol": "WARLORD"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 67,
+          "string_line": 293,
+          "symbol": "WARLORD"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -144,7 +498,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "RANGER",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 68,
+          "string_line": 255,
+          "symbol": "RANGER"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 68,
+          "string_line": 255,
+          "symbol": "RANGER"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -153,7 +530,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "TINKER",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 69,
+          "string_line": 258,
+          "symbol": "TINKER"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 69,
+          "string_line": 258,
+          "symbol": "TINKER"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -162,7 +562,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "TINKER V2",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 70,
+          "string_line": 259,
+          "symbol": "TINKER_V2"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 70,
+          "string_line": 259,
+          "symbol": "TINKER_V2"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -171,7 +594,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "710",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 71,
+          "string_line": 218,
+          "symbol": "710"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 71,
+          "string_line": 218,
+          "symbol": "710"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -180,7 +626,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "711",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 72,
+          "string_line": 219,
+          "symbol": "711"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 72,
+          "string_line": 219,
+          "symbol": "711"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -198,7 +667,63 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "712",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 73,
+          "string_line": 220,
+          "symbol": "712"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 73,
+          "string_line": 220,
+          "symbol": "712"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "2218",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx18",
+      "driver_name": "USBGH1XK",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 75,
+          "string_line": 279,
+          "symbol": "USBGH1XK"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 75,
+          "string_line": 279,
+          "symbol": "USBGH1XK"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -207,7 +732,63 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "KYRUSE PRO",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 131,
+          "string_line": 306,
+          "symbol": "KYRUSE_PRO"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 131,
+          "string_line": 306,
+          "symbol": "KYRUSE_PRO"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "2318",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx18",
+      "driver_name": "USBGH1XK",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 76,
+          "string_line": 279,
+          "symbol": "USBGH1XK"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 76,
+          "string_line": 279,
+          "symbol": "USBGH1XK"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -216,7 +797,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "KIZARU PRO",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 132,
+          "string_line": 307,
+          "symbol": "KIZARU_PRO"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 132,
+          "string_line": 307,
+          "symbol": "KIZARU_PRO"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -225,7 +829,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "MIHAWK PRO",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 133,
+          "string_line": 308,
+          "symbol": "MIHAWK_PRO"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 133,
+          "string_line": 308,
+          "symbol": "MIHAWK_PRO"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -234,7 +861,30 @@
       "windows_revision": null,
       "vendor_lighting": true,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "FUJIN PRO",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 134,
+          "string_line": 309,
+          "symbol": "FUJIN_PRO"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 134,
+          "string_line": 309,
+          "symbol": "FUJIN_PRO"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -243,7 +893,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "KAI TITANIUM",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 144,
+          "string_line": 318,
+          "symbol": "KAI_TITANIUM"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 144,
+          "string_line": 318,
+          "symbol": "KAI_TITANIUM"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -252,7 +925,162 @@
       "windows_revision": "0100",
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "RYO",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 169,
+          "string_line": 343,
+          "symbol": "RYO"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 169,
+          "string_line": 343,
+          "symbol": "RYO"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "2916",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "JD713",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 170,
+          "string_line": 344,
+          "symbol": "JD713"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 170,
+          "string_line": 344,
+          "symbol": "JD713"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "3016",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "USBZH21min",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 124,
+          "string_line": 299,
+          "symbol": "USBZH21min"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 124,
+          "string_line": 299,
+          "symbol": "USBZH21min"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "3116",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "USBZH29min",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 125,
+          "string_line": 300,
+          "symbol": "USBZH29min"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 125,
+          "string_line": 300,
+          "symbol": "USBZH29min"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "3216",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "USBFH28S",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 126,
+          "string_line": 301,
+          "symbol": "USBFH28S"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 126,
+          "string_line": 301,
+          "symbol": "USBFH28S"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -261,7 +1089,294 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "USBZH5XK",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 20,
+          "string_line": 287,
+          "symbol": "USBZH5XK"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 20,
+          "string_line": 287,
+          "symbol": "USBZH5XK"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "3416",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "HX35",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 136,
+          "string_line": 310,
+          "symbol": "HX35"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 136,
+          "string_line": 310,
+          "symbol": "HX35"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "3516",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "GAME HX7",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 137,
+          "string_line": 311,
+          "symbol": "GAME_HX7"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 137,
+          "string_line": 311,
+          "symbol": "GAME_HX7"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "3616",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "ABKO N530",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 130,
+          "string_line": 305,
+          "symbol": "ABKO_N530"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 130,
+          "string_line": 305,
+          "symbol": "ABKO_N530"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "3716",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "ABKO N950",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 129,
+          "string_line": 304,
+          "symbol": "ABKO_N950"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 129,
+          "string_line": 304,
+          "symbol": "ABKO_N950"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "3816",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "USBFH10",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 135,
+          "string_line": 271,
+          "symbol": "USBFH10"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 135,
+          "string_line": 271,
+          "symbol": "USBFH10"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "3916",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "dbE Otogai",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 140,
+          "string_line": 314,
+          "symbol": "dbE_Otogai"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 140,
+          "string_line": 314,
+          "symbol": "dbE_Otogai"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "3a16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "GT Orion",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 142,
+          "string_line": 316,
+          "symbol": "GT_Orion"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 142,
+          "string_line": 316,
+          "symbol": "GT_Orion"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "3b16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "FC1S-WENC-A",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 143,
+          "string_line": 317,
+          "symbol": "FC1S-WENC-A"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 143,
+          "string_line": 317,
+          "symbol": "FC1S-WENC-A"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -270,7 +1385,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "USBFC1S-BASS",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 147,
+          "string_line": 321,
+          "symbol": "USBFC1S-BASS"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 147,
+          "string_line": 321,
+          "symbol": "USBFC1S-BASS"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -279,7 +1417,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "dbE GM300",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 148,
+          "string_line": 322,
+          "symbol": "dbE_GM300"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 148,
+          "string_line": 322,
+          "symbol": "dbE_GM300"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -288,7 +1449,30 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "USBFC1S-SE",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 149,
+          "string_line": 323,
+          "symbol": "USBFC1S-SE"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 149,
+          "string_line": 323,
+          "symbol": "USBFC1S-SE"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -297,7 +1481,558 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "USBZHXK3-SE",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 150,
+          "string_line": 324,
+          "symbol": "USBZHXK3-SE"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 150,
+          "string_line": 324,
+          "symbol": "USBZHXK3-SE"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "4016",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "YHP 3036NEXUS",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 141,
+          "string_line": 315,
+          "symbol": "YHP_3036NEXUS"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 141,
+          "string_line": 315,
+          "symbol": "YHP_3036NEXUS"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "4116",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "USBFH11",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 155,
+          "string_line": 272,
+          "symbol": "USBFH11"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 155,
+          "string_line": 272,
+          "symbol": "USBFH11"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "4416",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "Beast MSA-010",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 166,
+          "string_line": 340,
+          "symbol": "Beast_MSA-010"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 166,
+          "string_line": 340,
+          "symbol": "Beast_MSA-010"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "4516",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "ABKO N980",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 156,
+          "string_line": 330,
+          "symbol": "ABKO_N980"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 156,
+          "string_line": 330,
+          "symbol": "ABKO_N980"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "4616",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "USBFH832",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 158,
+          "string_line": 332,
+          "symbol": "USBFH832"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 158,
+          "string_line": 332,
+          "symbol": "USBFH832"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "4816",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "USBFH839",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 161,
+          "string_line": 335,
+          "symbol": "USBFH839"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 161,
+          "string_line": 335,
+          "symbol": "USBFH839"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "4916",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "COX CH31",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 162,
+          "string_line": 336,
+          "symbol": "COX_CH31"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 162,
+          "string_line": 336,
+          "symbol": "COX_CH31"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "5016",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "COX CH7",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 163,
+          "string_line": 337,
+          "symbol": "COX_CH7"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 163,
+          "string_line": 337,
+          "symbol": "COX_CH7"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "5216",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "DYNOXIFY E200-USB",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 164,
+          "string_line": 338,
+          "symbol": "DYNOXIFY_E200-USB"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 164,
+          "string_line": 338,
+          "symbol": "DYNOXIFY_E200-USB"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "5316",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "DYNOXIFY D350-USB",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 165,
+          "string_line": 339,
+          "symbol": "DYNOXIFY_D350-USB"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 165,
+          "string_line": 339,
+          "symbol": "DYNOXIFY_D350-USB"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "5516",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "INFINITEX SOUND FORCE",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 171,
+          "string_line": 345,
+          "symbol": "INFINITEX_SOUND_FORCE"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 171,
+          "string_line": 345,
+          "symbol": "INFINITEX_SOUND_FORCE"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "5616",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "GH01BE",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 172,
+          "string_line": 346,
+          "symbol": "GH01BE"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 172,
+          "string_line": 346,
+          "symbol": "GH01BE"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "5716",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "USBFH22S-A",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 173,
+          "string_line": 347,
+          "symbol": "USBFH22S-A"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 173,
+          "string_line": 347,
+          "symbol": "USBFH22S-A"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "5816",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "ZGH30",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 174,
+          "string_line": 348,
+          "symbol": "ZGH30"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 174,
+          "string_line": 348,
+          "symbol": "ZGH30"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "5916",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "FH31W",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 175,
+          "string_line": 349,
+          "symbol": "FH31W"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 175,
+          "string_line": 349,
+          "symbol": "FH31W"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "6516",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "USBZH11S",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 77,
+          "string_line": 283,
+          "symbol": "USBZH11S"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 77,
+          "string_line": 283,
+          "symbol": "USBZH11S"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -306,7 +2041,327 @@
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "USBZH5XK",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 47,
+          "string_line": 287,
+          "symbol": "USBZH5XK"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 47,
+          "string_line": 287,
+          "symbol": "USBZH5XK"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "7016",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:7x16",
+      "driver_name": "COX CH57",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 21,
+          "string_line": 236,
+          "symbol": "COX_CH57"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 21,
+          "string_line": 236,
+          "symbol": "COX_CH57"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "7316",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:7x16",
+      "driver_name": "USBFC1 WENC",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 22,
+          "string_line": 268,
+          "symbol": "USBFC1_WENC"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 22,
+          "string_line": 268,
+          "symbol": "USBFC1_WENC"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "7416",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:7x16",
+      "driver_name": "USBFC1 WENC",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 78,
+          "string_line": 268,
+          "symbol": "USBFC1_WENC"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 78,
+          "string_line": 268,
+          "symbol": "USBFC1_WENC"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "7716",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:7x16",
+      "driver_name": "MONSTER AIRMARS N3S",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 92,
+          "string_line": 252,
+          "symbol": "MONSTER_AIRMARS_N3S"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 92,
+          "string_line": 252,
+          "symbol": "MONSTER_AIRMARS_N3S"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "7816",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:7x16",
+      "driver_name": "USBFC1 WENC",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 79,
+          "string_line": 268,
+          "symbol": "USBFC1_WENC"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 79,
+          "string_line": 268,
+          "symbol": "USBFC1_WENC"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "7c16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:7x16",
+      "driver_name": "AIRMARS KMH7 HEADPHONE",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 93,
+          "string_line": 232,
+          "symbol": "AIRMARS_KMH7_HEADPHONE"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 93,
+          "string_line": 232,
+          "symbol": "AIRMARS_KMH7_HEADPHONE"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "7d16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:7x16",
+      "driver_name": "AIRMARS KMH7 HEADPHONE",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 94,
+          "string_line": 232,
+          "symbol": "AIRMARS_KMH7_HEADPHONE"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 94,
+          "string_line": 232,
+          "symbol": "AIRMARS_KMH7_HEADPHONE"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "7e16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:7x16",
+      "driver_name": "ABKO N995",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 23,
+          "string_line": 229,
+          "symbol": "ABKO_N995"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 23,
+          "string_line": 229,
+          "symbol": "ABKO_N995"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "7f16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:7x16",
+      "driver_name": "ABKO N620",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 24,
+          "string_line": 226,
+          "symbol": "ABKO_N620"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 24,
+          "string_line": 226,
+          "symbol": "ABKO_N620"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -319,6 +2374,336 @@
     },
     {
       "vid": "0600",
+      "pid": "8116",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:8x16",
+      "driver_name": "USBZH3-ENC",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 48,
+          "string_line": 286,
+          "symbol": "USBZH3-ENC"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 48,
+          "string_line": 286,
+          "symbol": "USBZH3-ENC"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "8216",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:8x16",
+      "driver_name": "ZH20-C-ENC",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 80,
+          "string_line": 294,
+          "symbol": "ZH20-C-ENC"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 80,
+          "string_line": 294,
+          "symbol": "ZH20-C-ENC"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "8316",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:8x16",
+      "driver_name": "USBGH8-Plus-7.1-ENC",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 81,
+          "string_line": 280,
+          "symbol": "USBGH8-Plus-7.1-ENC"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 81,
+          "string_line": 280,
+          "symbol": "USBGH8-Plus-7.1-ENC"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "8416",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:8x16",
+      "driver_name": "COX CH42",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 25,
+          "string_line": 233,
+          "symbol": "COX_CH42"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 25,
+          "string_line": 233,
+          "symbol": "COX_CH42"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "8516",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:8x16",
+      "driver_name": "USBZH5XK-ENC",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 26,
+          "string_line": 288,
+          "symbol": "USBZH5XK-ENC"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 26,
+          "string_line": 288,
+          "symbol": "USBZH5XK-ENC"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "8a16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:8x16",
+      "driver_name": "USBFC1-A",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 27,
+          "string_line": 263,
+          "symbol": "USBFC1-A"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 27,
+          "string_line": 263,
+          "symbol": "USBFC1-A"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "8b16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:8x16",
+      "driver_name": "USBFC1-A",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 28,
+          "string_line": 263,
+          "symbol": "USBFC1-A"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 28,
+          "string_line": 263,
+          "symbol": "USBFC1-A"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "8c16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:8x16",
+      "driver_name": "Tronsmart Glary",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 107,
+          "string_line": 260,
+          "symbol": "Tronsmart_Glary"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 107,
+          "string_line": 260,
+          "symbol": "Tronsmart_Glary"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "8d16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:8x16",
+      "driver_name": "USBFC1-A",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 49,
+          "string_line": 263,
+          "symbol": "USBFC1-A"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 49,
+          "string_line": 263,
+          "symbol": "USBFC1-A"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "8e16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:8x16",
+      "driver_name": "2.4G USB Audio Device",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 104,
+          "string_line": 216,
+          "symbol": "2.4G_USB_Audio_Device"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 104,
+          "string_line": 216,
+          "symbol": "2.4G_USB_Audio_Device"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
       "pid": "8x16",
       "enumerated_by_vendor": false,
       "windows_revision": null,
@@ -328,12 +2713,134 @@
     },
     {
       "vid": "0600",
+      "pid": "9316",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "ORYX X330",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 108,
+          "string_line": 253,
+          "symbol": "ORYX_X330"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 108,
+          "string_line": 253,
+          "symbol": "ORYX_X330"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "9616",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "2.4G USB Gaming Headset",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 29,
+          "string_line": 217,
+          "symbol": "2.4G_USB_Gaming_Headset"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 29,
+          "string_line": 217,
+          "symbol": "2.4G_USB_Gaming_Headset"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "9716",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "2.4G USB Gaming Headset",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 30,
+          "string_line": 217,
+          "symbol": "2.4G_USB_Gaming_Headset"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 30,
+          "string_line": 217,
+          "symbol": "2.4G_USB_Gaming_Headset"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
       "pid": "9b16",
       "enumerated_by_vendor": false,
       "windows_revision": null,
       "vendor_lighting": true,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "USBFC1-RGB",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 105,
+          "string_line": 265,
+          "symbol": "USBFC1-RGB"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 105,
+          "string_line": 265,
+          "symbol": "USBFC1-RGB"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -342,7 +2849,460 @@
       "windows_revision": null,
       "vendor_lighting": true,
       "name": "GamePower Fujin Pro",
-      "rgb_verified": true
+      "rgb_verified": true,
+      "driver_name": "USBFC1S-RGB",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 50,
+          "string_line": 267,
+          "symbol": "USBFC1S-RGB"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 50,
+          "string_line": 267,
+          "symbol": "USBFC1S-RGB"
+        }
+      ],
+      "product_name_provenance": "owner-confirmed connected headset; not inferred from driver label"
+    },
+    {
+      "vid": "0600",
+      "pid": "9d16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "USB Gaming Headset HX500",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 109,
+          "string_line": 290,
+          "symbol": "USB_Gaming_Headset_HX500"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 109,
+          "string_line": 290,
+          "symbol": "USB_Gaming_Headset_HX500"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "a016",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:ax16",
+      "driver_name": "ZH21",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 82,
+          "string_line": 295,
+          "symbol": "ZH21"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 82,
+          "string_line": 295,
+          "symbol": "ZH21"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "a116",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:ax16",
+      "driver_name": "FH-VIRTUAL7.1",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 31,
+          "string_line": 239,
+          "symbol": "FH-VIRTUAL7.1"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 31,
+          "string_line": 239,
+          "symbol": "FH-VIRTUAL7.1"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "a216",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:ax16",
+      "driver_name": "AG0501",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 32,
+          "string_line": 230,
+          "symbol": "AG0501"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 32,
+          "string_line": 230,
+          "symbol": "AG0501"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "a416",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:ax16",
+      "driver_name": "ABKO N550",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 33,
+          "string_line": 225,
+          "symbol": "ABKO_N550"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 33,
+          "string_line": 225,
+          "symbol": "ABKO_N550"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "a616",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:ax16",
+      "driver_name": "USBFC1",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 34,
+          "string_line": 262,
+          "symbol": "USBFC1"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 34,
+          "string_line": 262,
+          "symbol": "USBFC1"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "a716",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:ax16",
+      "driver_name": "USBFC1",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 35,
+          "string_line": 262,
+          "symbol": "USBFC1"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 35,
+          "string_line": 262,
+          "symbol": "USBFC1"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "a816",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:ax16",
+      "driver_name": "USB BANSHEE HS-P18",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 110,
+          "string_line": 289,
+          "symbol": "USB_BANSHEE_HS-P18"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 110,
+          "string_line": 289,
+          "symbol": "USB_BANSHEE_HS-P18"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "aa16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:ax16",
+      "driver_name": "USBZH5XK-ENC",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 51,
+          "string_line": 288,
+          "symbol": "USBZH5XK-ENC"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 51,
+          "string_line": 288,
+          "symbol": "USBZH5XK-ENC"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "ab16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:ax16",
+      "driver_name": "USBFC6-MUTE",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 111,
+          "string_line": 270,
+          "symbol": "USBFC6-MUTE"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 111,
+          "string_line": 270,
+          "symbol": "USBFC6-MUTE"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "ac16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:ax16",
+      "driver_name": "USBFC6",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 52,
+          "string_line": 269,
+          "symbol": "USBFC6"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 52,
+          "string_line": 269,
+          "symbol": "USBFC6"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "ad16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:ax16",
+      "driver_name": "USBGHY1",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 36,
+          "string_line": 281,
+          "symbol": "USBGHY1"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 36,
+          "string_line": 281,
+          "symbol": "USBGHY1"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "ae16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:ax16",
+      "driver_name": "Tronsmart Sparkle",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 112,
+          "string_line": 261,
+          "symbol": "Tronsmart_Sparkle"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 112,
+          "string_line": 261,
+          "symbol": "Tronsmart_Sparkle"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -355,6 +3315,369 @@
     },
     {
       "vid": "0600",
+      "pid": "b016",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:bx16",
+      "driver_name": "USB YHP3035",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 113,
+          "string_line": 291,
+          "symbol": "USB_YHP3035"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 113,
+          "string_line": 291,
+          "symbol": "USB_YHP3035"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "b116",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:bx16",
+      "driver_name": "AIRMARS KMH5 HEADPHONE",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 95,
+          "string_line": 231,
+          "symbol": "AIRMARS_KMH5_HEADPHONE"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 95,
+          "string_line": 231,
+          "symbol": "AIRMARS_KMH5_HEADPHONE"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "b316",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:bx16",
+      "driver_name": "AIRMARS KMH5 HEADPHONE",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 96,
+          "string_line": 231,
+          "symbol": "AIRMARS_KMH5_HEADPHONE"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 96,
+          "string_line": 231,
+          "symbol": "AIRMARS_KMH5_HEADPHONE"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "b416",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:bx16",
+      "driver_name": "USBFC1-A",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 53,
+          "string_line": 263,
+          "symbol": "USBFC1-A"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 53,
+          "string_line": 263,
+          "symbol": "USBFC1-A"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "b516",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:bx16",
+      "driver_name": "USBFH10",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 83,
+          "string_line": 271,
+          "symbol": "USBFH10"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 83,
+          "string_line": 271,
+          "symbol": "USBFH10"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "b816",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:bx16",
+      "driver_name": "MONSTER AIRMARS N1S",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 97,
+          "string_line": 250,
+          "symbol": "MONSTER_AIRMARS_N1S"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 97,
+          "string_line": 250,
+          "symbol": "MONSTER_AIRMARS_N1S"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "b916",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:bx16",
+      "driver_name": "MONSTER AIRMARS N3",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 98,
+          "string_line": 251,
+          "symbol": "MONSTER_AIRMARS_N3"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 98,
+          "string_line": 251,
+          "symbol": "MONSTER_AIRMARS_N3"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "bc16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:bx16",
+      "driver_name": "COX CH43",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 37,
+          "string_line": 234,
+          "symbol": "COX_CH43"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 37,
+          "string_line": 234,
+          "symbol": "COX_CH43"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "bd16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:bx16",
+      "driver_name": "USBFC1-L",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 84,
+          "string_line": 264,
+          "symbol": "USBFC1-L"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 84,
+          "string_line": 264,
+          "symbol": "USBFC1-L"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "be16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:bx16",
+      "driver_name": "ABKO EH550",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 38,
+          "string_line": 223,
+          "symbol": "ABKO_EH550"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 38,
+          "string_line": 223,
+          "symbol": "ABKO_EH550"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "bf16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:bx16",
+      "driver_name": "USBSH1",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 85,
+          "string_line": 282,
+          "symbol": "USBSH1"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 85,
+          "string_line": 282,
+          "symbol": "USBSH1"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
       "pid": "bx16",
       "enumerated_by_vendor": false,
       "windows_revision": null,
@@ -364,12 +3687,540 @@
     },
     {
       "vid": "0600",
+      "pid": "c016",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:cx16",
+      "driver_name": "USBFH20",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 86,
+          "string_line": 273,
+          "symbol": "USBFH20"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 86,
+          "string_line": 273,
+          "symbol": "USBFH20"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "c116",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:cx16",
+      "driver_name": "USBFH25",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 87,
+          "string_line": 275,
+          "symbol": "USBFH25"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 87,
+          "string_line": 275,
+          "symbol": "USBFH25"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "c216",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:cx16",
+      "driver_name": "USBZH29",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 88,
+          "string_line": 284,
+          "symbol": "USBZH29"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 88,
+          "string_line": 284,
+          "symbol": "USBZH29"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "c316",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:cx16",
+      "driver_name": "SHUOMENG SM-H1PRO",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 114,
+          "string_line": 256,
+          "symbol": "SHUOMENG_SM-H1PRO"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 114,
+          "string_line": 256,
+          "symbol": "SHUOMENG_SM-H1PRO"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "c416",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:cx16",
+      "driver_name": "ABKO M550",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 39,
+          "string_line": 224,
+          "symbol": "ABKO_M550"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 39,
+          "string_line": 224,
+          "symbol": "ABKO_M550"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "c516",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:cx16",
+      "driver_name": "COX SCARLET",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 40,
+          "string_line": 237,
+          "symbol": "COX_SCARLET"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 40,
+          "string_line": 237,
+          "symbol": "COX_SCARLET"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "c616",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:cx16",
+      "driver_name": "SHUOMENG SM-H2PRO",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 115,
+          "string_line": 257,
+          "symbol": "SHUOMENG_SM-H2PRO"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 115,
+          "string_line": 257,
+          "symbol": "SHUOMENG_SM-H2PRO"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "c716",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:cx16",
+      "driver_name": "ABKO B890U",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 41,
+          "string_line": 222,
+          "symbol": "ABKO_B890U"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 41,
+          "string_line": 222,
+          "symbol": "ABKO_B890U"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "c816",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:cx16",
+      "driver_name": "ABKO N810",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 42,
+          "string_line": 227,
+          "symbol": "ABKO_N810"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 42,
+          "string_line": 227,
+          "symbol": "ABKO_N810"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "c916",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:cx16",
+      "driver_name": "ABKO B850U",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 43,
+          "string_line": 221,
+          "symbol": "ABKO_B850U"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 43,
+          "string_line": 221,
+          "symbol": "ABKO_B850U"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "ca16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:cx16",
+      "driver_name": "dbE GM210",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 157,
+          "string_line": 331,
+          "symbol": "dbE_GM210"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 157,
+          "string_line": 331,
+          "symbol": "dbE_GM210"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "cb16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:cx16",
+      "driver_name": "USBFH26",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 89,
+          "string_line": 276,
+          "symbol": "USBFH26"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 89,
+          "string_line": 276,
+          "symbol": "USBFH26"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "cc16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:cx16",
+      "driver_name": "ABKO N990",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 44,
+          "string_line": 228,
+          "symbol": "ABKO_N990"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 44,
+          "string_line": 228,
+          "symbol": "ABKO_N990"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "cd16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:cx16",
+      "driver_name": "USBFH22",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 90,
+          "string_line": 274,
+          "symbol": "USBFH22"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 90,
+          "string_line": 274,
+          "symbol": "USBFH22"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
       "pid": "cx16",
       "enumerated_by_vendor": false,
       "windows_revision": null,
       "vendor_lighting": false,
       "name": null,
       "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "d016",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "USBFH29",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 116,
+          "string_line": 277,
+          "symbol": "USBFH29"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 116,
+          "string_line": 277,
+          "symbol": "USBFH29"
+        }
+      ]
+    },
+    {
+      "vid": "0600",
+      "pid": "d116",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0600:xx16",
+      "driver_name": "USBFH30",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 117,
+          "string_line": 278,
+          "symbol": "USBFH30"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 117,
+          "string_line": 278,
+          "symbol": "USBFH30"
+        }
+      ]
     },
     {
       "vid": "0600",
@@ -414,7 +4265,30 @@
       "windows_revision": "0100",
       "vendor_lighting": null,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "USBFC1S",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 101,
+          "string_line": 266,
+          "symbol": "USBFC1S"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 101,
+          "string_line": 266,
+          "symbol": "USBFC1S"
+        }
+      ]
     },
     {
       "vid": "0c76",
@@ -423,7 +4297,30 @@
       "windows_revision": "0100",
       "vendor_lighting": null,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "COX CH47",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 45,
+          "string_line": 235,
+          "symbol": "COX_CH47"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 45,
+          "string_line": 235,
+          "symbol": "COX_CH47"
+        }
+      ]
     },
     {
       "vid": "0c76",
@@ -432,7 +4329,30 @@
       "windows_revision": "0100",
       "vendor_lighting": null,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "MONSTER AIRMARS N1S",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 99,
+          "string_line": 250,
+          "symbol": "MONSTER_AIRMARS_N1S"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 99,
+          "string_line": 250,
+          "symbol": "MONSTER_AIRMARS_N1S"
+        }
+      ]
     },
     {
       "vid": "0c76",
@@ -441,7 +4361,30 @@
       "windows_revision": "0100",
       "vendor_lighting": null,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "USBFH11",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 102,
+          "string_line": 272,
+          "symbol": "USBFH11"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 102,
+          "string_line": 272,
+          "symbol": "USBFH11"
+        }
+      ]
     },
     {
       "vid": "0c76",
@@ -451,6 +4394,105 @@
       "vendor_lighting": false,
       "name": null,
       "rgb_verified": false
+    },
+    {
+      "vid": "0c76",
+      "pid": "7216",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0c76:xx16",
+      "driver_name": "FC1S-WENC",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 118,
+          "string_line": 238,
+          "symbol": "FC1S-WENC"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 118,
+          "string_line": 238,
+          "symbol": "FC1S-WENC"
+        }
+      ]
+    },
+    {
+      "vid": "0c76",
+      "pid": "7616",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0c76:xx16",
+      "driver_name": "FC1S-WENC",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 119,
+          "string_line": 238,
+          "symbol": "FC1S-WENC"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 119,
+          "string_line": 238,
+          "symbol": "FC1S-WENC"
+        }
+      ]
+    },
+    {
+      "vid": "0c76",
+      "pid": "9416",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false,
+      "lighting_source_pattern": "0c76:xx16",
+      "driver_name": "FC1S-WENC",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 122,
+          "string_line": 238,
+          "symbol": "FC1S-WENC"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 122,
+          "string_line": 238,
+          "symbol": "FC1S-WENC"
+        }
+      ]
     },
     {
       "vid": "0c76",
@@ -468,7 +4510,30 @@
       "windows_revision": "0100",
       "vendor_lighting": true,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "Genesis Neon 764 Black",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 151,
+          "string_line": 325,
+          "symbol": "Genesis_Neon_764_Black"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 151,
+          "string_line": 325,
+          "symbol": "Genesis_Neon_764_Black"
+        }
+      ]
     },
     {
       "vid": "331a",
@@ -477,7 +4542,30 @@
       "windows_revision": "0100",
       "vendor_lighting": true,
       "name": null,
-      "rgb_verified": false
+      "rgb_verified": false,
+      "driver_name": "Genesis Neon 764 White",
+      "driver_revisions": [
+        "0100"
+      ],
+      "driver_audio_interfaces": [
+        "00"
+      ],
+      "name_provenance": [
+        {
+          "source": ".rsrc/1028/INF/113",
+          "sha256": "65ca2350a9e27fc97dde39e842379485c99b15cf0dc619a4aaf4c1381f1a664b",
+          "model_line": 152,
+          "string_line": 326,
+          "symbol": "Genesis_Neon_764_White"
+        },
+        {
+          "source": ".rsrc/1028/INF/114",
+          "sha256": "57ef4c40bf28bd49a3a75cfecc6d92cf95d88770ce1b4b2484937e8aef2d06f8",
+          "model_line": 152,
+          "string_line": 326,
+          "symbol": "Genesis_Neon_764_White"
+        }
+      ]
     }
   ]
 }

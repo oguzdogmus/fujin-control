@@ -23,6 +23,10 @@ def lookup(vid, pid):
     return min(entries, key=lambda e: e['vid'].count('x') + e['pid'].count('x')) if entries else None
 
 
+def display_name(entry):
+    return entry['name'] or entry.get('driver_name') or 'Product / driver name unknown'
+
+
 def status(entry):
     if entry['rgb_verified']:
         return 'RGB verified (Off, Fixed, Breathe, Rainbow)'
@@ -48,7 +52,7 @@ def inventory(sysroot=Path('/sys/bus/usb/devices')):
             except FileNotFoundError:
                 product = ''
             found.append({'usb_path': device.name, 'vid': vid, 'pid': pid,
-                          'product': product, 'name': entry['name'],
+                          'product': product, 'name': display_name(entry), 'driver_name': entry.get('driver_name'),
                           'catalog_pattern': entry['vid'] + ':' + entry['pid'],
                           'status': status(entry)})
         except FileNotFoundError:

@@ -1,6 +1,8 @@
 # Vendor device catalog
 
-The bundled Windows software does not supply a reliable retail-name mapping. Entries below are **USB IDs or patterns**, not 53 proven headset models. Only the connected Fujin Pro has a confirmed retail identity and tested RGB transport.
+The current catalog combines 136 INF-backed product/driver labels with the configuration identities below: **149 unique IDs or patterns**, not 149 proven retail models. See the authoritative [product mapping findings](product-mappings.md) for names, hashes, source lines and remaining uncertainty. Only the owner-confirmed Fujin Pro 0600:9c16 has tested RGB transport.
+
+The table below records the original 53 configuration entries before INF enrichment.
 
 Sources, decoded offline and round-trip verified:
 

@@ -11,11 +11,11 @@ import fujin_devices as devices
 
 class DeviceCatalogTests(unittest.TestCase):
     def test_catalog_preserves_all_vendor_rows_and_lighting_flags(self):
-        self.assertEqual(len(devices.CATALOG),53)
+        self.assertEqual(len(devices.CATALOG),149)
         enabled={e['vid']+':'+e['pid'] for e in devices.CATALOG if e['vendor_lighting'] is True}
         self.assertEqual(enabled,{'0600:1316','0c76:1700','0600:9b16','0600:9c16','0600:2616','331a:5025','331a:5026'})
-        self.assertEqual(sum(e['vendor_lighting'] is False for e in devices.CATALOG),38)
-        self.assertEqual(sum(e['vendor_lighting'] is None for e in devices.CATALOG),8)
+        self.assertEqual(sum(e['vendor_lighting'] is False for e in devices.CATALOG if 'lighting_source_pattern' not in e),38)
+        self.assertEqual(sum('driver_name' in e for e in devices.CATALOG),136)
         self.assertEqual([e['pid'] for e in devices.CATALOG if e['rgb_verified']],['9c16'])
 
     def test_exact_lighting_override_beats_enumeration_family(self):
@@ -40,7 +40,7 @@ class DeviceCatalogTests(unittest.TestCase):
     def test_catalog_cli_never_opens_transport(self):
         with patch('fujin.Transport',side_effect=AssertionError('USB access')),contextlib.redirect_stdout(io.StringIO()) as output:
             self.assertEqual(fujin.main(['models']),0)
-        self.assertEqual(len(json.loads(output.getvalue())),53)
+        self.assertEqual(len(json.loads(output.getvalue())),len(devices.CATALOG))
         with patch('fujin_devices.inventory',return_value=[]),patch('fujin.Transport',side_effect=AssertionError('USB access')),contextlib.redirect_stdout(io.StringIO()):
             self.assertEqual(fujin.main(['devices','--all']),0)
 

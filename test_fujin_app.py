@@ -33,8 +33,13 @@ class GuiTests(unittest.TestCase):
         def inspect():
             dialog=next(w for w in app.topLevelWidgets() if isinstance(w,QDialog))
             table=dialog.findChild(QTableWidget)
-            self.assertEqual(table.rowCount(),53)
+            self.assertEqual(table.rowCount(),len(fujin_app.fujin_devices.CATALOG))
             self.assertIn('RGB',table.item(0,2).text())
+            self.assertEqual(table.horizontalHeaderItem(1).text(),'Product / driver name')
+            names=[table.item(row,1).text() for row in range(table.rowCount())]
+            self.assertIn('RAIJIN',names)
+            self.assertIn('GamePower Fujin Pro',names)
+            self.assertIn('USBFC1-A',names)
             dialog.accept()
         with patch('fujin_devices.inventory',return_value=[]),patch.object(self.w.proc,'start') as start:
             QTimer.singleShot(0,inspect)

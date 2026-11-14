@@ -9,11 +9,11 @@ A native Qt6 desktop app and Python CLI for **GamePower Fujin Pro** USB headset 
 - Fixed color, Breathe, Rainbow, Blink and Off, with color picker, hex input, swatches and effect speed.
 - Explicit **Apply lighting**: opening the app and changing previews send no lighting reports.
 - Ten-band playback EQ, 31.5 Hz–16 kHz, ±6 dB, presets and input headroom attenuation.
-- Vendor device catalog: all 53 USB identities/families, with RGB visibility and verification status; read-only detection of connected candidates.
+- Vendor device catalog: 149 USB identities/families, including 136 INF-backed driver names, with RGB visibility and verification status; read-only detection of connected candidates.
 - Strict device discovery for **0600:9c16 / USBFC1S-RGB / HID interface 3**, including exact HID report descriptor validation.
 - Lighting dry run, clear errors and scoped device permissions. No hardware-save, firmware, flash, EEPROM or arbitrary-register interface.
 
-This is an independent project, not affiliated with GamePower. The [full vendor catalog](evidence/device-catalog.md) is available in **Device catalog**. RGB and EQ control remain limited to the verified USB variant. The archive's **0600:2616** variant is not supported without separate verification.
+This is an independent project, not affiliated with GamePower. The [full product/driver mapping catalog](evidence/product-mappings.md) is available in **Device catalog**. RGB and EQ control remain limited to the verified USB variant. The archive's **0600:2616** variant is not supported without separate verification.
 
 ## Run the desktop app
 
@@ -117,3 +117,5 @@ env QT_QPA_PLATFORM=offscreen python3 -m unittest -v
 The tests cover report framing, safe register bounds, failure cleanup, dry-run isolation, GUI behavior, EQ configuration, device discovery and routing isolation. Live EQ graph lifecycle and physical output links were verified; an audible EQ listening test is not claimed. A completed USB transfer alone does not establish a visible lighting effect.
 
 Original Python code, documentation and artwork are MIT licensed. Vendor-derived instruction excerpts under `evidence/assembly/` retain their original rights; see that directory's notice. Vendor software, firmware, decrypted configuration and downloaded analysis engines are not distributed.
+
+Driver names now come from matching 32-bit and 64-bit installer INF resources, including 22 explicit GamePower names. Generic and other-brand labels remain driver labels, not unique retail identities. See [mapping provenance and all 136 rows](evidence/product-mappings.md). The 149-entry union retains vendor wildcard families and lighting overrides.

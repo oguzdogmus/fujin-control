@@ -353,8 +353,8 @@ class Window(QMainWindow):
         dialog=QDialog(self);dialog.setWindowTitle('Vendor headset catalog');dialog.resize(1040,650)
         layout=QVBoxLayout(dialog)
         title=label('Devices listed in the Windows software','section');layout.addWidget(title)
-        note=label('53 USB identities / families · 7 with vendor lighting enabled. Retail names are not provided. Only the Fujin Pro 0600:9c16 transport has been verified.','muted');note.setWordWrap(True);layout.addWidget(note)
-        table=QTableWidget(len(fujin_devices.CATALOG),4);table.setHorizontalHeaderLabels(['USB ID / family','Model name','Lighting status','Connected'])
+        note=label(f'{len(fujin_devices.CATALOG)} USB identities / families · {sum(e["vendor_lighting"] is True for e in fujin_devices.CATALOG)} with vendor lighting enabled. Names include Windows driver labels; they do not establish RGB compatibility. Only Fujin Pro 0600:9c16 is verified.','muted');note.setWordWrap(True);layout.addWidget(note)
+        table=QTableWidget(len(fujin_devices.CATALOG),4);table.setHorizontalHeaderLabels(['USB ID / family','Product / driver name','Lighting status','Connected'])
         table.setEditTriggers(QAbstractItemView.EditTrigger.NoEditTriggers);table.setSelectionBehavior(QAbstractItemView.SelectionBehavior.SelectRows)
         table.verticalHeader().hide();table.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeMode.ResizeToContents)
         table.horizontalHeader().setSectionResizeMode(2,QHeaderView.ResizeMode.Stretch);layout.addWidget(table,1)
@@ -367,7 +367,7 @@ class Window(QMainWindow):
                 connected=[];detail.setText('Device inventory unavailable: '+str(exc))
             for row,entry in enumerate(fujin_devices.CATALOG):
                 names=[d['product'] or d['vid']+':'+d['pid'] for d in connected if d['catalog_pattern']==entry['vid']+':'+entry['pid']]
-                for column,text in enumerate((entry['vid']+':'+entry['pid'],entry['name'] or 'Retail name unknown',fujin_devices.status(entry),', '.join(names) or '—')):
+                for column,text in enumerate((entry['vid']+':'+entry['pid'],fujin_devices.display_name(entry),fujin_devices.status(entry),', '.join(names) or '—')):
                     table.setItem(row,column,QTableWidgetItem(text))
         actions=QHBoxLayout();actions.addWidget(button('Refresh connected devices',refresh));actions.addStretch();actions.addWidget(button('Close',dialog.accept));layout.addLayout(actions)
         refresh();dialog.exec()
