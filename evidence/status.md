@@ -16,7 +16,7 @@ The physical Fujin Pro was confirmed by its owner as USBFC1S-RGB, VID 0600 / PID
 
 REA 6.8.0 / Ghidra 12.1.4 cross-checked lighting and EQ paths. Incomplete Borland calling conventions make instruction excerpts the authority for exact report bytes. Raw REA JSON and machine captures are retained locally rather than distributed.
 
-The offline suite contains 32 tests. Test results are reproducible with `python3 -m unittest -v`; no real device or audio graph is used by those tests. EQ discovery uses synthetic data so the test suite contains no user's audio inventory.
+The offline suite contains 35 tests. Test results are reproducible with `python3 -m unittest -v`; no real device or audio graph is used by those tests. EQ discovery uses synthetic data so the test suite contains no user's audio inventory.
 
 ## Vendor catalog extension
 
@@ -25,3 +25,7 @@ All 53 unique USB identities/patterns from the vendor enumeration and LED tables
 ## INF-backed names
 
 The catalog now includes 149 unique IDs/families, with 136 explicit labels independently matched between both installer INF resources. See [product mappings](product-mappings.md) for all model/string source lines and three official PS5 package cross-checks. Product naming does not expand the RGB transport allowlist.
+
+## Product gallery
+
+The integrated Products page replaces the modal table. All 22 GamePower listings and images were reviewed and attributed; the gallery uses official photos and a generic illustration only for other driver entries. Search, profile filters, grouping, product details, inventory failure handling, image integrity and responsive layout are covered by the offline tests. No new hardware operations were introduced.

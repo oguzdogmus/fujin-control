@@ -12,9 +12,10 @@ from PyQt6.QtCore import Qt, QRectF, QPointF, QProcess, QTimer
 from PyQt6.QtGui import QColor, QFont, QPainter, QPainterPath, QPen, QLinearGradient, QRadialGradient, QConicalGradient, QIcon
 from PyQt6.QtWidgets import (QApplication, QMainWindow, QWidget, QFrame, QLabel, QPushButton,
     QVBoxLayout, QHBoxLayout, QGridLayout, QStackedWidget, QSlider, QLineEdit,
-    QColorDialog, QComboBox, QSizePolicy, QMessageBox, QDialog, QTableWidget, QTableWidgetItem, QHeaderView, QAbstractItemView)
+    QColorDialog, QComboBox, QSizePolicy, QMessageBox)
 import fujin
 import fujin_devices
+from fujin_products import ProductsPage
 
 ROOT = Path(__file__).resolve().parent
 STATE = ROOT / '.state' / 'desktop.json'
@@ -28,6 +29,13 @@ STYLE = '''
 QWidget { background: #090a0c; color: #eef0f4; font-family: "Inter", "Noto Sans", sans-serif; font-size: 13px; }
 QMainWindow { background: #090a0c; }
 QFrame#panel { background: #202226; border: 1px solid #292c31; border-radius: 12px; }
+QFrame#productCard { background: #202226; border: 1px solid #30343b; border-radius: 12px; }
+QFrame#productCard:hover { border-color: #55616f; }
+QLabel#productBadge { color: #00caff; font-size: 10px; font-weight: 700; }
+QLabel#connected { color: #49dcaf; }
+QScrollBar:vertical { background: #121519; width: 8px; margin: 0; }
+QScrollBar::handle:vertical { background: #3f4651; min-height: 36px; border-radius: 4px; }
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0; }
 QFrame#sidebar { background: #181a1e; border: none; border-radius: 12px; }
 QLabel { background: transparent; }
 QLabel#muted { color: #9298a3; }
@@ -161,10 +169,11 @@ class Window(QMainWindow):
         top=QHBoxLayout();self.back=button('‹  Devices',lambda:self.navigate('home'),'ghost');top.addWidget(self.back)
         brand=label('FUJIN  /  CONTROL');brand.setStyleSheet('font-weight:800; letter-spacing:2px; font-size:15px;');top.addWidget(brand);top.addStretch()
         top.addWidget(label('DESKTOP', 'eyebrow'));top.addSpacing(8);top.addWidget(label('Local profile'));top.addSpacing(16)
-        top.addWidget(button('Device catalog',self.device_catalog,'ghost'));top.addWidget(button('Help',self.help,'ghost'));layout.addLayout(top)
+        top.addWidget(button('Products',self.device_catalog,'ghost'));top.addWidget(button('Help',self.help,'ghost'));layout.addLayout(top)
         self.stack=QStackedWidget();layout.addWidget(self.stack,1)
         self.home=self.make_home();self.stack.addWidget(self.home)
         self.controls=self.make_controls();self.stack.addWidget(self.controls)
+        self.products=ProductsPage(HeadsetArt,self.navigate);self.stack.addWidget(self.products)
         foot=QHBoxLayout();self.connection=label('', 'muted');foot.addWidget(self.connection);foot.addStretch();foot.addWidget(label('GAMEPOWER FUJIN PRO   ·   USB','eyebrow'));layout.addLayout(foot)
         self.poll=QTimer(self);self.poll.timeout.connect(self.check_device);self.poll.start(2000)
         self.update_lighting();self.update_gains();self.check_device();self.navigate('home')
@@ -247,6 +256,8 @@ class Window(QMainWindow):
         hint=label('For EQ, choose “Fujin Pro Equalizer” as your app’s output in KDE audio.','muted');hint.setWordWrap(True);v.addWidget(hint)
         row=QHBoxLayout();self.stop_eq=button('Turn EQ off',self.disable_eq);self.stop_eq.setEnabled(False);row.addWidget(self.stop_eq);row.addStretch();self.apply_eq=button('Enable EQ',self.enable_eq,'primary');row.addWidget(self.apply_eq);v.addLayout(row);return w
     def navigate(self,page):
+        if page=='products':
+            self.stack.setCurrentWidget(self.products);self.back.setVisible(True);return
         self.stack.setCurrentIndex(0 if page=='home' else 1);self.back.setVisible(page!='home')
         if page!='home':
             self.pages.setCurrentIndex(0 if page=='lighting' else 1)
@@ -350,27 +361,8 @@ class Window(QMainWindow):
     def eq_process_error(self,error):
         if error==QProcess.ProcessError.FailedToStart:self.eq_ready=False;self.eq_badge.setText('OFF');self.stop_eq.setEnabled(False);self.apply_eq.setEnabled(True);self.status.setText('Could not start the equalizer backend.')
     def device_catalog(self):
-        dialog=QDialog(self);dialog.setWindowTitle('Vendor headset catalog');dialog.resize(1040,650)
-        layout=QVBoxLayout(dialog)
-        title=label('Devices listed in the Windows software','section');layout.addWidget(title)
-        note=label(f'{len(fujin_devices.CATALOG)} USB identities / families · {sum(e["vendor_lighting"] is True for e in fujin_devices.CATALOG)} with vendor lighting enabled. Names include Windows driver labels; they do not establish RGB compatibility. Only Fujin Pro 0600:9c16 is verified.','muted');note.setWordWrap(True);layout.addWidget(note)
-        table=QTableWidget(len(fujin_devices.CATALOG),4);table.setHorizontalHeaderLabels(['USB ID / family','Product / driver name','Lighting status','Connected'])
-        table.setEditTriggers(QAbstractItemView.EditTrigger.NoEditTriggers);table.setSelectionBehavior(QAbstractItemView.SelectionBehavior.SelectRows)
-        table.verticalHeader().hide();table.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeMode.ResizeToContents)
-        table.horizontalHeader().setSectionResizeMode(2,QHeaderView.ResizeMode.Stretch);layout.addWidget(table,1)
-        detail=label('X means a vendor wildcard nibble. Connected names are read from sysfs; no USB commands are sent.','muted');detail.setWordWrap(True);layout.addWidget(detail)
-        def refresh():
-            try:
-                connected=fujin_devices.inventory()
-                detail.setText('Read-only USB catalog detection. RGB writes stay restricted to the verified transport.')
-            except OSError as exc:
-                connected=[];detail.setText('Device inventory unavailable: '+str(exc))
-            for row,entry in enumerate(fujin_devices.CATALOG):
-                names=[d['product'] or d['vid']+':'+d['pid'] for d in connected if d['catalog_pattern']==entry['vid']+':'+entry['pid']]
-                for column,text in enumerate((entry['vid']+':'+entry['pid'],fujin_devices.display_name(entry),fujin_devices.status(entry),', '.join(names) or '—')):
-                    table.setItem(row,column,QTableWidgetItem(text))
-        actions=QHBoxLayout();actions.addWidget(button('Refresh connected devices',refresh));actions.addStretch();actions.addWidget(button('Close',dialog.accept));layout.addLayout(actions)
-        refresh();dialog.exec()
+        self.products.stack.setCurrentWidget(self.products.gallery)
+        self.products.refresh();self.navigate('products')
 
     def help(self):
         text='Fujin Control\n\nLighting: select an effect, color and speed, then Apply lighting.\nEQ: adjust the bands, then Enable EQ / Apply EQ. EQ stays active while this app is open. In KDE audio, select Fujin Pro Equalizer as your application’s output.\n\nThe ten frequencies, ±6 dB range and Vendor profile 1 come from the Windows configuration. Linux uses PipeWire peaking filters (Q 1.4); matching the Windows DSP exactly is not established. Positive boosts add input attenuation for headroom.\n\nIf the headset needs access, use the scoped udev rule in README.md. For a temporary test, run this in a terminal:\n\nsudo setfacl -m u:'+getpass.getuser()+':rw '+(self.device_path or '/dev/hidrawN')+'\n\nClosing the app leaves lighting as-is and stops its software EQ. Settings are remembered locally; nothing applies automatically at launch.'

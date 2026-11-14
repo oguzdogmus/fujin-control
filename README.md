@@ -4,6 +4,14 @@ A native Qt6 desktop app and Python CLI for **GamePower Fujin Pro** USB headset 
 
 ![Fujin Control device overview](screenshots/overview.png)
 
+## Products
+
+Browse the 22 named GamePower products in a searchable gallery with official product imagery, connected/tested filters and individual product details. Switch to **All driver entries** to browse the complete catalog. Model identity and RGB compatibility are shown separately.
+
+![Products gallery](screenshots/products.png)
+
+Images were reviewed against all 22 official listings. Four standard/Pro pairs use the same image on the vendor site. See [image review and sources](evidence/product-image-review.md) and [image attribution](assets/products/NOTICE.md).
+
 ## Features
 
 - Fixed color, Breathe, Rainbow, Blink and Off, with color picker, hex input, swatches and effect speed.
@@ -13,7 +21,7 @@ A native Qt6 desktop app and Python CLI for **GamePower Fujin Pro** USB headset 
 - Strict device discovery for **0600:9c16 / USBFC1S-RGB / HID interface 3**, including exact HID report descriptor validation.
 - Lighting dry run, clear errors and scoped device permissions. No hardware-save, firmware, flash, EEPROM or arbitrary-register interface.
 
-This is an independent project, not affiliated with GamePower. The [full product/driver mapping catalog](evidence/product-mappings.md) is available in **Device catalog**. RGB and EQ control remain limited to the verified USB variant. The archive's **0600:2616** variant is not supported without separate verification.
+This is an independent project, not affiliated with GamePower. The [full product/driver mapping catalog](evidence/product-mappings.md) is available in **Products**. RGB and EQ control remain limited to the verified USB variant. The archive's **0600:2616** variant is not supported without separate verification.
 
 ## Run the desktop app
 
@@ -51,7 +59,7 @@ The vendor configuration selects **software EQ**. Band frequencies, gain limits 
 
 EQ runs only while the app is open. It processes playback routed into its virtual sink, sends no USB audio-control commands, and leaves the default output and microphone unchanged. Newly observed Pulse playback streams directly on the headset are moved through the EQ. Turning it off or closing the app restores its playback to the headset and removes its graph. Details: [EQ findings](evidence/eq-findings.md).
 
-Screenshots were captured from a visible Wayland instance of the actual app, without applying lighting or enabling EQ. The headset drawing and app icon are original vector artwork.
+Screenshots were captured from a visible Wayland instance of the actual app, without applying lighting or enabling EQ. The headset preview drawing and app icon are original vector artwork. The Products gallery uses attributed official product images.
 
 ## Device permissions
 
@@ -116,6 +124,6 @@ env QT_QPA_PLATFORM=offscreen python3 -m unittest -v
 
 The tests cover report framing, safe register bounds, failure cleanup, dry-run isolation, GUI behavior, EQ configuration, device discovery and routing isolation. Live EQ graph lifecycle and physical output links were verified; an audible EQ listening test is not claimed. A completed USB transfer alone does not establish a visible lighting effect.
 
-Original Python code, documentation and artwork are MIT licensed. Vendor-derived instruction excerpts under `evidence/assembly/` retain their original rights; see that directory's notice. Vendor software, firmware, decrypted configuration and downloaded analysis engines are not distributed.
+Original Python code, documentation and vector artwork are MIT licensed. Official product images in `assets/products/` retain their original rights and are outside the MIT license. Vendor-derived instruction excerpts under `evidence/assembly/` retain their original rights; see that directory's notice. Vendor software, firmware, decrypted configuration and downloaded analysis engines are not distributed.
 
 Driver names now come from matching 32-bit and 64-bit installer INF resources, including 22 explicit GamePower names. Generic and other-brand labels remain driver labels, not unique retail identities. See [mapping provenance and all 136 rows](evidence/product-mappings.md). The 149-entry union retains vendor wildcard families and lighting overrides.

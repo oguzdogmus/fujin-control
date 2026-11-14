@@ -27,24 +27,53 @@ class GuiTests(unittest.TestCase):
             self.w.navigate('lighting');self.w.quick_look('breathe','ff0080',100);self.w.preview_command();self.w.navigate('eq')
             self.assertFalse(start.called)
             self.assertEqual(self.w.pages.currentIndex(),1)
-    def test_device_catalog_shows_all_rows_without_commands(self):
-        from PyQt6.QtCore import QTimer
-        from PyQt6.QtWidgets import QDialog, QTableWidget
-        def inspect():
-            dialog=next(w for w in app.topLevelWidgets() if isinstance(w,QDialog))
-            table=dialog.findChild(QTableWidget)
-            self.assertEqual(table.rowCount(),len(fujin_app.fujin_devices.CATALOG))
-            self.assertIn('RGB',table.item(0,2).text())
-            self.assertEqual(table.horizontalHeaderItem(1).text(),'Product / driver name')
-            names=[table.item(row,1).text() for row in range(table.rowCount())]
-            self.assertIn('RAIJIN',names)
-            self.assertIn('GamePower Fujin Pro',names)
-            self.assertIn('USBFC1-A',names)
-            dialog.accept()
-        with patch('fujin_devices.inventory',return_value=[]),patch.object(self.w.proc,'start') as start:
-            QTimer.singleShot(0,inspect)
-            self.w.device_catalog()
-            self.assertFalse(start.called)
+    def test_products_browsing_search_and_details_never_send_commands(self):
+        with patch('fujin_devices.inventory',return_value=[]),patch.object(self.w.proc,'start') as start,patch.object(self.w.eq_proc,'start') as eq_start:
+            self.w.device_catalog();page=self.w.products
+            self.assertIs(self.w.stack.currentWidget(),page)
+            self.assertEqual(len(page.visible_products),22)
+            page.search.setText('2616')
+            self.assertEqual([g['name'] for g in page.visible_products],['Fujin Pro'])
+            page.show_product(page.visible_products[0])
+            self.assertIs(page.stack.currentWidget(),page.detail)
+            self.assertEqual(len(page.visible_products[0]['entries']),2)
+            page.search.setText('not-a-real-headset')
+            self.assertEqual(page.visible_products,[])
+            page.search.clear();page.collection.setCurrentIndex(1)
+            self.assertTrue(any(g['name']=='Usbfc1-A' for g in page.visible_products))
+            page.availability.setCurrentIndex(1)
+            self.assertEqual([g['name'] for g in page.visible_products],['Fujin Pro'])
+            self.assertFalse(start.called);self.assertFalse(eq_start.called)
+
+    def test_products_connected_filter_and_missing_inventory(self):
+        page=self.w.products
+        with patch('fujin_devices.inventory',return_value=[{'vid':'0600','pid':'9c16'}]):page.refresh()
+        page.availability.setCurrentIndex(2)
+        self.assertEqual([g['name'] for g in page.visible_products],['Fujin Pro'])
+        with patch('fujin_devices.inventory',side_effect=OSError('unavailable')):page.refresh()
+        self.assertEqual(page.visible_products,[])
+        self.assertIn('unavailable',page.note.text())
+
+    def test_every_gamepower_product_has_a_valid_attributed_image(self):
+        import hashlib
+        from fujin_products import PRODUCT_IMAGES, IMAGE_ROOT, ProductImage
+        names={g['key'] for g in self.w.products.groups if g['gamepower']}
+        self.assertEqual(names,set(PRODUCT_IMAGES))
+        for key,source in PRODUCT_IMAGES.items():
+            path=IMAGE_ROOT/source['file']
+            self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(),source['sha256'])
+            self.assertTrue(source['page'].startswith('https://gamepowerpc.com/headset/'))
+            self.assertTrue(source['image_url'].startswith('https://gamepowerpc.com/media/'))
+            art=ProductImage(key,185)
+            self.assertFalse(art.image.isNull(),key)
+
+    def test_products_layout_adapts_without_horizontal_scroll(self):
+        self.w.device_catalog()
+        for width in (1000,1180):
+            self.w.resize(width,850);app.processEvents();app.processEvents()
+            page=self.w.products
+            self.assertEqual(page.scroll.horizontalScrollBar().maximum(),0)
+            self.assertTrue(all(page.grid.itemAt(i).widget().width()>=255 for i in range(page.grid.count())))
 
     def test_apply_passes_exact_validated_cli_arguments(self):
         self.w.navigate('lighting');self.w.quick_look('breathe','ff0080',100)

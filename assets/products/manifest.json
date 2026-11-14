@@ -1,0 +1,158 @@
+{
+  "RAIJIN": {
+    "file": "raijin.png",
+    "page": "https://gamepowerpc.com/headset/raijin",
+    "image_url": "https://gamepowerpc.com/media/16/u7XfXAN6CdZ09OCTkaP64la2mvcQTyondAtOl0h5.png",
+    "sha256": "e4f0f1a81bfed42ddf5e4121f5fb91dcb0f20daa8f6ed49bfc50208714e71648",
+    "reviewed": "2026-11-14"
+  },
+  "KIZARU": {
+    "file": "kizaru.png",
+    "page": "https://gamepowerpc.com/headset/kizaru",
+    "image_url": "https://gamepowerpc.com/media/25/rrWF7hf8SX2kD2idEafzVXJNpQ1hfUKB9s0FAJed.png",
+    "sha256": "161ab7282e14eaf7b0ddcb297466df17c509b2aafd15cf27f15bccdfec326179",
+    "reviewed": "2026-11-14"
+  },
+  "MIHAWK": {
+    "file": "mihawk.png",
+    "page": "https://gamepowerpc.com/headset/mihawk",
+    "image_url": "https://gamepowerpc.com/media/27/2pxU5SxlqrjttuIyFlP4X5GmEPt6TPV3V2iaE5eT.png",
+    "sha256": "f7afe3b9e18ee8ab21a9a3847656ed2d68d364dcc9936d33de2399aa8d5a2299",
+    "reviewed": "2026-11-14"
+  },
+  "FUJIN": {
+    "file": "fujin.png",
+    "page": "https://gamepowerpc.com/headset/fujin",
+    "image_url": "https://gamepowerpc.com/media/15/dOOhrJUTD4SCxChLkkqnbYY992Bm96Bp6ipvDPMP.png",
+    "sha256": "65b29cb56ea39174343ce09e3d11c4000ba7ddab9ec0260864fce292ce152a7b",
+    "reviewed": "2026-11-14"
+  },
+  "KYRUSE": {
+    "file": "kyruse.png",
+    "page": "https://gamepowerpc.com/headset/kyruse",
+    "image_url": "https://gamepowerpc.com/media/11/i5529iF5l92yYKJzU7LXv2XxdVsHJbssMA06nptD.png",
+    "sha256": "8a9213d5d065123d1d1b1653f0ae1ff5b8f3ffb40155d8c74bc6f4b24bea7d6b",
+    "reviewed": "2026-11-14"
+  },
+  "VOLDON": {
+    "file": "voldon.png",
+    "page": "https://gamepowerpc.com/headset/voldon",
+    "image_url": "https://gamepowerpc.com/media/14/c8Pf1goHnRDBvvRFmpf96tMtbeDmVeZG0ID0Uvpn.png",
+    "sha256": "7e777a38ae97024e08cdaecd5253f751ee3e72ab9e980828e1f91e0cd9011155",
+    "reviewed": "2026-11-14"
+  },
+  "KUGON": {
+    "file": "kugon.png",
+    "page": "https://gamepowerpc.com/headset/kugon",
+    "image_url": "https://gamepowerpc.com/media/13/kzMfsqtMBF6IPZe1zZRzhahAqTTRomei4sp2bgY1.png",
+    "sha256": "03726c936d3e5af2948a41413f44d80b6a2ba7cb2d5be1476e16abdacf1b88f0",
+    "reviewed": "2026-11-14"
+  },
+  "JIN": {
+    "file": "jin.png",
+    "page": "https://gamepowerpc.com/headset/jin",
+    "image_url": "https://gamepowerpc.com/media/19/QYjMpWZS9FRBjvjbnwQRN2KXQ2LTfvbmdXBXddFn.png",
+    "sha256": "4c841acac1320260cebef9114f0a66cdf5a3e204a34097e2ddac8cd69210649c",
+    "reviewed": "2026-11-14"
+  },
+  "MEDUSA": {
+    "file": "medusa.png",
+    "page": "https://gamepowerpc.com/headset/medusa",
+    "image_url": "https://gamepowerpc.com/media/29/kWOhXuHvW45vEyrPJCUUUEQ8tWhBAhgBBJEdlhbZ.png",
+    "sha256": "5e99e2f794a19ef3d1fc618cc783d3255f04e77aecb2a7ab6c22036d74083fc3",
+    "reviewed": "2026-11-14"
+  },
+  "MEDUSA RAINBOW": {
+    "file": "medusa-rainbow.png",
+    "page": "https://gamepowerpc.com/headset/medusa-rainbow",
+    "image_url": "https://gamepowerpc.com/media/22/I76SPl5sUPlmZrbOill5gcaH3iuGbFdWYWlX3dmP.png",
+    "sha256": "6c6f5e96380b9da9dc2a32516f50de205525eec95238d28fffd515e74a07b974",
+    "reviewed": "2026-11-14"
+  },
+  "MEI RGB": {
+    "file": "mei.png",
+    "page": "https://gamepowerpc.com/headset/mei",
+    "image_url": "https://gamepowerpc.com/media/26/mzDEiigVYdKcqdfcms8OTo6OpxyO8VkTHETQXVPy.png",
+    "sha256": "450cdd74e93586323c00a90c52da7d64818ce24882d848b9eaae15164dc4fbe1",
+    "reviewed": "2026-11-14"
+  },
+  "LUNA": {
+    "file": "luna.png",
+    "page": "https://gamepowerpc.com/headset/luna",
+    "image_url": "https://gamepowerpc.com/media/17/8UU3cxF3ovixL3oTsPY66vrTIWrxtop8sIHk0VbU.png",
+    "sha256": "bc15cba5de2af438e513319813347bb30e48754c8067c4ab8bb4663e8fcb1396",
+    "reviewed": "2026-11-14"
+  },
+  "WARLORD": {
+    "file": "warlord.png",
+    "page": "https://gamepowerpc.com/headset/warlord",
+    "image_url": "https://gamepowerpc.com/media/28/3GSpMIQvuy8Bf8eJQbtsEtNtSMtn0zGhrru5Uxzc.png",
+    "sha256": "2e31bd5f775293517bbde76f7c050db46b28e68a9116848424b2ce53f0fac903",
+    "reviewed": "2026-11-14"
+  },
+  "RANGER": {
+    "file": "ranger.png",
+    "page": "https://gamepowerpc.com/headset/ranger",
+    "image_url": "https://gamepowerpc.com/media/20/IcFNfDROrd1nSL9QlETjMyvKWlqBoZiMygtwGoeC.png",
+    "sha256": "781b5a4c9fad04c5bb6cfda582c6b0d4b3192dbcfe0c865678ef5e8694bad1c8",
+    "reviewed": "2026-11-14"
+  },
+  "TINKER": {
+    "file": "tinker.jpeg",
+    "page": "https://gamepowerpc.com/headset/tinker",
+    "image_url": "https://gamepowerpc.com/media/18/LgKGcptlm4sjs56sICrkX4g0bgXAhGorVrWzNAe6.jpeg",
+    "sha256": "d1b6e122c7b1eccc52b3ac40e1ec758284d6ad1ee3361cb877b89df9fb94091b",
+    "reviewed": "2026-11-14",
+    "variant": "White headset pictured on the official Tinker listing"
+  },
+  "TINKER V2": {
+    "file": "tinker-v2.png",
+    "page": "https://gamepowerpc.com/headset/tinker-v2-black",
+    "image_url": "https://gamepowerpc.com/media/31/Z36P6uNgZWqyOUkHvcf2VQddTJn4zwpp7UjvyLc3.png",
+    "sha256": "8f4d7ce0e04eb8dd947c374889b6595651d50befb926bfe1bdd23d75abcd8761",
+    "reviewed": "2026-11-14",
+    "variant": "Official Tinker V2 Black image"
+  },
+  "KYRUSE PRO": {
+    "file": "kyruse.png",
+    "page": "https://gamepowerpc.com/headset/kyruse-pro",
+    "image_url": "https://gamepowerpc.com/media/12/i5529iF5l92yYKJzU7LXv2XxdVsHJbssMA06nptD.png",
+    "sha256": "8a9213d5d065123d1d1b1653f0ae1ff5b8f3ffb40155d8c74bc6f4b24bea7d6b",
+    "reviewed": "2026-11-14"
+  },
+  "KIZARU PRO": {
+    "file": "kizaru.png",
+    "page": "https://gamepowerpc.com/headset/kizaru-pro",
+    "image_url": "https://gamepowerpc.com/media/8/rrWF7hf8SX2kD2idEafzVXJNpQ1hfUKB9s0FAJed.png",
+    "sha256": "161ab7282e14eaf7b0ddcb297466df17c509b2aafd15cf27f15bccdfec326179",
+    "reviewed": "2026-11-14"
+  },
+  "MIHAWK PRO": {
+    "file": "mihawk.png",
+    "page": "https://gamepowerpc.com/headset/mihawk-pro",
+    "image_url": "https://gamepowerpc.com/media/10/2pxU5SxlqrjttuIyFlP4X5GmEPt6TPV3V2iaE5eT.png",
+    "sha256": "f7afe3b9e18ee8ab21a9a3847656ed2d68d364dcc9936d33de2399aa8d5a2299",
+    "reviewed": "2026-11-14"
+  },
+  "FUJIN PRO": {
+    "file": "fujin.png",
+    "page": "https://gamepowerpc.com/headset/fujin-pro",
+    "image_url": "https://gamepowerpc.com/media/9/dOOhrJUTD4SCxChLkkqnbYY992Bm96Bp6ipvDPMP.png",
+    "sha256": "65b29cb56ea39174343ce09e3d11c4000ba7ddab9ec0260864fce292ce152a7b",
+    "reviewed": "2026-11-14"
+  },
+  "KAI TITANIUM": {
+    "file": "kai-titanium.png",
+    "page": "https://gamepowerpc.com/headset/kai-titanium",
+    "image_url": "https://gamepowerpc.com/media/7/sRJgtmQzeGx6Xbly3Emr7cRj9JKW2Mf9IYQuU5kC.png",
+    "sha256": "2408bb47684c1a52be7ad5a31a60d892a5820de53c3dd125aed41037e8c1c024",
+    "reviewed": "2026-11-14"
+  },
+  "RYO": {
+    "file": "ryo.png",
+    "page": "https://gamepowerpc.com/headset/ryo-rainbow",
+    "image_url": "https://gamepowerpc.com/media/237/01JWE6NX8BT4ZJSXAT8FWM2V25.png",
+    "sha256": "b7d569a3bfaf9798a92d8e9ed8d4187b5160fb84e6c79f2b4d07e1269ba26039",
+    "reviewed": "2026-11-14"
+  }
+}

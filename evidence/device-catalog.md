@@ -16,7 +16,7 @@ The seven RGB-visible IDs are `0600:1316`, `0c76:1700`, `0600:9b16`, `0600:9c16`
 
 ## App and CLI
 
-**Device catalog** in the app lists every entry, its validation status, and matching connected products. It does not open device nodes. The CLI provides:
+**Products** in the app lists every entry, its validation status, and matching connected products. It does not open device nodes. The CLI provides:
 
 ```sh
 python3 fujin.py models
