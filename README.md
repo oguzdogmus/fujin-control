@@ -1,8 +1,8 @@
-# Fujin Control for Linux
+# GamePower Control for Linux
 
-A native Qt6 desktop app and Python CLI for **GamePower Fujin Pro** USB headset lighting, with a ten-band PipeWire playback equalizer.
+An independent Linux desktop app for GamePower headset lighting and playback EQ, with a native Qt6 interface and Python CLI. Lighting and EQ control are currently verified for the **GamePower Fujin Pro** USB variant `0600:9c16`.
 
-![Fujin Control device overview](screenshots/overview.png)
+![GamePower Control device overview](screenshots/overview.png)
 
 ## Products
 
@@ -59,7 +59,7 @@ The vendor configuration selects **software EQ**. Band frequencies, gain limits 
 
 EQ runs only while the app is open. It processes playback routed into its virtual sink, sends no USB audio-control commands, and leaves the default output and microphone unchanged. Newly observed Pulse playback streams directly on the headset are moved through the EQ. Turning it off or closing the app restores its playback to the headset and removes its graph. Details: [EQ findings](evidence/eq-findings.md).
 
-Screenshots were captured from a visible Wayland instance of the actual app, without applying lighting or enabling EQ. The headset preview drawing and app icon are original vector artwork. The Products gallery uses attributed official product images.
+Screenshots show the earlier Fujin Control branding and were captured from a visible Wayland instance of the actual app, without applying lighting or enabling EQ. The headset preview drawing and app icon are original vector artwork. The Products gallery uses attributed official product images.
 
 ## Device permissions
 
