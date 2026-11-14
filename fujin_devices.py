@@ -34,7 +34,7 @@ def status(entry):
         return 'Vendor RGB enabled; descriptor and hardware verification needed'
     if entry['vendor_lighting'] is False:
         return 'Vendor RGB hidden; no lighting support established'
-    return 'Vendor enumeration only; no lighting support established'
+    return 'Vendor-listed; no lighting support established'
 
 
 def inventory(sysroot=Path('/sys/bus/usb/devices')):
