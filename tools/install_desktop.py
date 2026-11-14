@@ -21,7 +21,7 @@ def main():
     target = data_home / 'applications/fujin-control.desktop'
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text('\n'.join([
-        '[Desktop Entry]', 'Type=Application', 'Name=Fujin Control',
+        '[Desktop Entry]', 'Type=Application', 'Name=GamePower Control',
         'Comment=GamePower Fujin Pro lighting and playback equalizer',
         'Exec=' + quoted(sys.executable) + ' ' + quoted(ROOT / 'fujin_app.py'),
         'Icon=' + str(ROOT / 'assets/fujin.svg').replace('\\', '\\\\'),

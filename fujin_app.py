@@ -18,6 +18,7 @@ import fujin_devices
 from fujin_products import ProductsPage
 
 ROOT = Path(__file__).resolve().parent
+APP_NAME = 'GamePower Control'
 STATE = ROOT / '.state' / 'desktop.json'
 BLUE = '#00b8f5'
 MODE_LABELS = {'single': 'Fixed', 'breathe': 'Breathe', 'rainbow': 'Rainbow', 'blink': 'Blink', 'off': 'Off'}
@@ -157,7 +158,7 @@ class GainGraph(QWidget):
 
 class Window(QMainWindow):
     def __init__(self):
-        super().__init__();self.setWindowTitle('Fujin Control');self.setWindowIcon(QIcon(str(ROOT/'assets/fujin.svg')))
+        super().__init__();self.setWindowTitle(APP_NAME);self.setWindowIcon(QIcon(str(ROOT/'assets/fujin.svg')))
         self.resize(1180,850);self.setMinimumSize(1000,800)
         self.mode='rainbow';self.rgb='ff0080';self.speed=100;self.gains=[0.0]*10;self.busy=False;self.eq_pending=None;self.eq_ready=False;self.eq_failure=''
         self.device_path=None;self.last_applied=None
@@ -167,7 +168,7 @@ class Window(QMainWindow):
         self.eq_buffer='';self.eq_intentional_stop=False;self.closing=False
         root=QWidget();self.setCentralWidget(root);layout=QVBoxLayout(root);layout.setContentsMargins(28,23,28,17);layout.setSpacing(22)
         top=QHBoxLayout();self.back=button('‹  Devices',lambda:self.navigate('home'),'ghost');top.addWidget(self.back)
-        brand=label('FUJIN  /  CONTROL');brand.setStyleSheet('font-weight:800; letter-spacing:2px; font-size:15px;');top.addWidget(brand);top.addStretch()
+        brand=label('GAMEPOWER  /  CONTROL');brand.setStyleSheet('font-weight:800; letter-spacing:2px; font-size:15px;');top.addWidget(brand);top.addStretch()
         top.addWidget(label('DESKTOP', 'eyebrow'));top.addSpacing(8);top.addWidget(label('Local profile'));top.addSpacing(16)
         top.addWidget(button('Products',self.device_catalog,'ghost'));top.addWidget(button('Help',self.help,'ghost'));layout.addLayout(top)
         self.stack=QStackedWidget();layout.addWidget(self.stack,1)
@@ -365,7 +366,7 @@ class Window(QMainWindow):
         self.products.refresh();self.navigate('products')
 
     def help(self):
-        text='Fujin Control\n\nLighting: select an effect, color and speed, then Apply lighting.\nEQ: adjust the bands, then Enable EQ / Apply EQ. EQ stays active while this app is open. In KDE audio, select Fujin Pro Equalizer as your application’s output.\n\nThe ten frequencies, ±6 dB range and Vendor profile 1 come from the Windows configuration. Linux uses PipeWire peaking filters (Q 1.4); matching the Windows DSP exactly is not established. Positive boosts add input attenuation for headroom.\n\nIf the headset needs access, use the scoped udev rule in README.md. For a temporary test, run this in a terminal:\n\nsudo setfacl -m u:'+getpass.getuser()+':rw '+(self.device_path or '/dev/hidrawN')+'\n\nClosing the app leaves lighting as-is and stops its software EQ. Settings are remembered locally; nothing applies automatically at launch.'
+        text=APP_NAME+'\n\nLighting: select an effect, color and speed, then Apply lighting.\nEQ: adjust the bands, then Enable EQ / Apply EQ. EQ stays active while this app is open. In KDE audio, select Fujin Pro Equalizer as your application’s output.\n\nThe ten frequencies, ±6 dB range and Vendor profile 1 come from the Windows configuration. Linux uses PipeWire peaking filters (Q 1.4); matching the Windows DSP exactly is not established. Positive boosts add input attenuation for headroom.\n\nIf the headset needs access, use the scoped udev rule in README.md. For a temporary test, run this in a terminal:\n\nsudo setfacl -m u:'+getpass.getuser()+':rw '+(self.device_path or '/dev/hidrawN')+'\n\nClosing the app leaves lighting as-is and stops its software EQ. Settings are remembered locally; nothing applies automatically at launch.'
         QMessageBox.information(self,'About & device access',text)
     def closeEvent(self,event):
         if self.busy:self.status.setText('Wait for the current lighting change to finish before closing.');event.ignore();return
@@ -374,7 +375,7 @@ class Window(QMainWindow):
         self.save_state();event.accept()
 
 def main():
-    app=QApplication(sys.argv);app.setApplicationName('Fujin Control');app.setDesktopFileName('fujin-control');app.setStyle('Fusion');app.setStyleSheet(STYLE)
+    app=QApplication(sys.argv);app.setApplicationName(APP_NAME);app.setDesktopFileName('fujin-control');app.setStyle('Fusion');app.setStyleSheet(STYLE)
     w=Window();w.show()
     return app.exec()
 

@@ -59,7 +59,7 @@ The vendor configuration selects **software EQ**. Band frequencies, gain limits 
 
 EQ runs only while the app is open. It processes playback routed into its virtual sink, sends no USB audio-control commands, and leaves the default output and microphone unchanged. Newly observed Pulse playback streams directly on the headset are moved through the EQ. Turning it off or closing the app restores its playback to the headset and removes its graph. Details: [EQ findings](evidence/eq-findings.md).
 
-Screenshots show the earlier Fujin Control branding and were captured from a visible Wayland instance of the actual app, without applying lighting or enabling EQ. The headset preview drawing and app icon are original vector artwork. The Products gallery uses attributed official product images.
+Screenshots were captured from a visible Wayland instance of the actual app, without applying lighting or enabling EQ. The headset preview drawing and app icon are original vector artwork. The Products gallery uses attributed official product images.
 
 ## Device permissions
 
