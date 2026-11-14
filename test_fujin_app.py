@@ -27,6 +27,20 @@ class GuiTests(unittest.TestCase):
             self.w.navigate('lighting');self.w.quick_look('breathe','ff0080',100);self.w.preview_command();self.w.navigate('eq')
             self.assertFalse(start.called)
             self.assertEqual(self.w.pages.currentIndex(),1)
+    def test_device_catalog_shows_all_rows_without_commands(self):
+        from PyQt6.QtCore import QTimer
+        from PyQt6.QtWidgets import QDialog, QTableWidget
+        def inspect():
+            dialog=next(w for w in app.topLevelWidgets() if isinstance(w,QDialog))
+            table=dialog.findChild(QTableWidget)
+            self.assertEqual(table.rowCount(),53)
+            self.assertIn('RGB',table.item(0,2).text())
+            dialog.accept()
+        with patch('fujin_devices.inventory',return_value=[]),patch.object(self.w.proc,'start') as start:
+            QTimer.singleShot(0,inspect)
+            self.w.device_catalog()
+            self.assertFalse(start.called)
+
     def test_apply_passes_exact_validated_cli_arguments(self):
         self.w.navigate('lighting');self.w.quick_look('breathe','ff0080',100)
         with patch.object(self.w.proc,'start') as start:

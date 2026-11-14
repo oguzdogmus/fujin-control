@@ -1,0 +1,483 @@
+{
+  "schema": 1,
+  "source": "Bundled AppConfig LED_ValueMap and GamePowerAudioConfig USB_VID_PID; see evidence/device-catalog.md",
+  "entries": [
+    {
+      "vid": "0600",
+      "pid": "0818",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "1016",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "1116",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "1216",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "1316",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": true,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "1416",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "1516",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "1616",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "1710",
+      "enumerated_by_vendor": true,
+      "windows_revision": "0100",
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "1716",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "1816",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "1916",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "1a16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "1b16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "1c16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "1d16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "1e16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "1f16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "2016",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "2116",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "2210",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "2216",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "2316",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "2416",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "2516",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "2616",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": true,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "2716",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "2816",
+      "enumerated_by_vendor": true,
+      "windows_revision": "0100",
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "3316",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "3c16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "3d16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "3e16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "3f16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "6716",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "7x16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "8x16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "9b16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": true,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "9c16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": true,
+      "name": "GamePower Fujin Pro",
+      "rgb_verified": true
+    },
+    {
+      "vid": "0600",
+      "pid": "ax16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "bx16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "cx16",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "xx16",
+      "enumerated_by_vendor": true,
+      "windows_revision": "0100",
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "xx17",
+      "enumerated_by_vendor": true,
+      "windows_revision": "0100",
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0600",
+      "pid": "xx18",
+      "enumerated_by_vendor": true,
+      "windows_revision": "0100",
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0c76",
+      "pid": "1700",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": true,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0c76",
+      "pid": "1711",
+      "enumerated_by_vendor": true,
+      "windows_revision": "0100",
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0c76",
+      "pid": "1712",
+      "enumerated_by_vendor": true,
+      "windows_revision": "0100",
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0c76",
+      "pid": "1715",
+      "enumerated_by_vendor": true,
+      "windows_revision": "0100",
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0c76",
+      "pid": "1720",
+      "enumerated_by_vendor": true,
+      "windows_revision": "0100",
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0c76",
+      "pid": "172x",
+      "enumerated_by_vendor": false,
+      "windows_revision": null,
+      "vendor_lighting": false,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "0c76",
+      "pid": "xx16",
+      "enumerated_by_vendor": true,
+      "windows_revision": "0100",
+      "vendor_lighting": null,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "331a",
+      "pid": "5025",
+      "enumerated_by_vendor": true,
+      "windows_revision": "0100",
+      "vendor_lighting": true,
+      "name": null,
+      "rgb_verified": false
+    },
+    {
+      "vid": "331a",
+      "pid": "5026",
+      "enumerated_by_vendor": true,
+      "windows_revision": "0100",
+      "vendor_lighting": true,
+      "name": null,
+      "rgb_verified": false
+    }
+  ]
+}

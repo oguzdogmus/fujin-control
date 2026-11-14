@@ -13,6 +13,7 @@ import stat
 import struct
 import sys
 import time
+import fujin_devices
 
 DESCRIPTOR = bytes.fromhex('050c0901a1011500250109e909ea09b509b675019504810209e209b709cd95038102050b092095018106050c26ff000900750895038102090095049102c0')
 VID_PID = (0x0600, 0x9c16)
@@ -149,21 +150,32 @@ class Transport:
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command', choices=('devices', 'rainbow', 'color', 'off'))
+    parser.add_argument('command', choices=('models', 'devices', 'rainbow', 'color', 'off'))
     parser.add_argument('rgb', nargs='?')
     parser.add_argument('--mode', choices=('single', 'blink', 'breathe'), default=None)
     parser.add_argument('--speed', type=int, help='Vendor raw speed value, 0..255; physical rate not measured')
     parser.add_argument('--dry-run', action='store_true', help='Show operations without opening any device')
     parser.add_argument('--device', help='Choose one discovered /dev/hidrawN when more than one matches')
+    parser.add_argument('--all', action='store_true', help='With devices, list vendor catalog candidates read-only, including unverified identities')
     args = parser.parse_args(argv)
+    if args.all and args.command != 'devices':
+        parser.error('--all is only valid with devices')
     if args.command != 'color' and (args.rgb is not None or args.mode is not None):
         parser.error('RGB and --mode are only valid with color')
     if args.command == 'color' and args.rgb is None:
         parser.error('color requires RRGGBB')
     try:
+        if args.command == 'models':
+            if args.rgb or args.speed is not None or args.device or args.dry_run:
+                parser.error('models does not accept lighting or device options')
+            print(json.dumps(fujin_devices.CATALOG, indent=2))
+            return 0
         if args.command == 'devices':
             if args.rgb or args.speed is not None:
                 parser.error('devices does not accept RGB or speed')
+            if args.all:
+                print(json.dumps(fujin_devices.inventory(), indent=2))
+                return 0
             devices = discover()
             print(json.dumps([{'path': str(p), 'read_write_access': os.access(p, os.R_OK | os.W_OK)} for p in devices], indent=2))
             return 0

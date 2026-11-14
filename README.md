@@ -9,10 +9,11 @@ A native Qt6 desktop app and Python CLI for **GamePower Fujin Pro** USB headset 
 - Fixed color, Breathe, Rainbow, Blink and Off, with color picker, hex input, swatches and effect speed.
 - Explicit **Apply lighting**: opening the app and changing previews send no lighting reports.
 - Ten-band playback EQ, 31.5 Hz–16 kHz, ±6 dB, presets and input headroom attenuation.
+- Vendor device catalog: all 53 USB identities/families, with RGB visibility and verification status; read-only detection of connected candidates.
 - Strict device discovery for **0600:9c16 / USBFC1S-RGB / HID interface 3**, including exact HID report descriptor validation.
 - Lighting dry run, clear errors and scoped device permissions. No hardware-save, firmware, flash, EEPROM or arbitrary-register interface.
 
-This is an independent project, not affiliated with GamePower. Support is deliberately limited to the verified USB variant. The archive's **0600:2616** variant is not supported without separate verification.
+This is an independent project, not affiliated with GamePower. The [full vendor catalog](evidence/device-catalog.md) is available in **Device catalog**. RGB and EQ control remain limited to the verified USB variant. The archive's **0600:2616** variant is not supported without separate verification.
 
 ## Run the desktop app
 
@@ -80,6 +81,8 @@ That example uses fish shell syntax. In bash or zsh use `sudo setfacl -m "u:$(id
 ## Lighting CLI
 
 ```sh
+python3 fujin.py models
+python3 fujin.py devices --all
 python3 fujin.py devices
 python3 fujin.py rainbow --dry-run
 python3 fujin.py color ff0080 --mode breathe --dry-run
