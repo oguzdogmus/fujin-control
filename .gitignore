@@ -1,0 +1,35 @@
+# Local settings, sessions, logs and caches
+.state/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+*.tmp
+.env
+.env.*
+*.pem
+*.key
+
+# Proprietary downloads and raw local investigation material
+fujin-vendor/
+config-extracted/
+*.rar
+*.zip
+*.exe
+*.dll
+*.bin
+*.dec
+*.verified.ini
+SkinSetting*
+tools/ghidra*/
+evidence/*pw-dump*.json
+evidence/*graph*.json
+evidence/rea-*.json
+evidence/eq-rea-*.json
+evidence/*open*.json
+evidence/gui-launch.json
+evidence/udev-properties.txt
+evidence/usb-*.txt
+evidence/lsusb.txt
+evidence/publication-scan-local.json

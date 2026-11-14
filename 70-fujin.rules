@@ -1,0 +1,2 @@
+# Restrict access to the observed Fujin USB headset HID interface, not USB audio.
+SUBSYSTEM=="hidraw", KERNEL=="hidraw*", ATTRS{idVendor}=="0600", ATTRS{idProduct}=="9c16", ENV{ID_USB_INTERFACE_NUM}=="03", TAG+="uaccess"

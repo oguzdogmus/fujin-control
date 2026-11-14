@@ -1,0 +1,27 @@
+[
+  {
+    "path": "fujin-vendor/AppConfig.bin",
+    "sha256": "fe286dd7f275f00c795a226c4f2184adffc01b5c5e9e79ef11e48b385ecb6ee9",
+    "size": 25350
+  },
+  {
+    "path": "fujin-vendor/SkinSetting.ini",
+    "sha256": "7f50c4816007680fbd08d950bcdf9392e3681da6c64013fa0143d80c8942e83a",
+    "size": 41700
+  },
+  {
+    "path": "fujin-vendor/gamepower_fujin_pro_ps5_driver_v10_win64.rar",
+    "sha256": "817d650523c866566ab7bffd25f0aad4bc87d785b609613a4f794e4171c1c6b7",
+    "size": 939502
+  },
+  {
+    "path": "fujin-vendor/gamepower_virtual_71_software_v17_win64.rar",
+    "sha256": "b3a220c52c179a146d00b69c2796edc6acb6dd224bee99c6a6436236ad40723a",
+    "size": 91142249
+  },
+  {
+    "path": "fujin-vendor/main_app_106.exe",
+    "sha256": "23a5c22335ffa185290d860797efd823584330545bfb8dbe511f3a862f4ba80d",
+    "size": 17569640
+  }
+]
